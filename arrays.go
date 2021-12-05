@@ -1,4 +1,4 @@
-package ArraysDo
+package arrays
 
 func BinarySearch(nums []int, target int) bool {
 	left := 0
