@@ -1,5 +1,7 @@
 package arrays
 
+import "fmt"
+
 func BinarySearch(nums []int, target int) bool {
 	left := 0
 	right := len(nums) - 1
@@ -14,4 +16,11 @@ func BinarySearch(nums []int, target int) bool {
 		}
 	}
 	return false
+}
+
+func welcome() {
+	fmt.Println("Welcome to array")
+}
+func Welcome() {
+	fmt.Println("This package was created by Rizki Susilo Ramadhan")
 }
